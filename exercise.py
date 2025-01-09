@@ -44,9 +44,9 @@ def check_letter():
     # Your control flow logic goes here
   letter = input("Enter a letter(a-z or A-Z) "),
   if letter in ('a', 'e', 'i', 'o', 'u'):
-    print(f"The letter {letter} is a vowel.")
+    print(f"The letter is a vowel.")
   else:
-    print(f"The letter {x} is a consonant.")
+    print(f"The letter is a consonant.")
     
 
 # Call the function
